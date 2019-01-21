@@ -1,0 +1,101 @@
+*{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10pt;
+}
+
+h2 {
+	font-size: 14pt;
+        text-align: center;
+        margin-top: 30px;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: rgb(10, 80, 5);
+}
+
+form#fDental {
+  display: inline;
+}
+
+#main {
+	width: 800px;
+	margin-left: 20px;
+	min-height: 600px;
+	margin: 2em auto;
+	border: 1px solid silver;
+	background: #FFFFFF;
+}
+
+#les {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+table {
+	border: 1px dotted silver;
+}
+
+th {
+	border: 1px solid silver;
+	border-width: 0 1px 1px 0;
+	background: #525355;
+	color: white;
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: bold;
+	padding: 2px 4px 2px 4px;
+}
+
+.footer {
+    background-color: yellow;
+    color: black;
+}
+
+td {
+	text-align: left;
+	padding: 2px 4px 2px 4px;
+        border: 1px solid silver;
+	border-width: 0 1px 1px 0;
+}
+
+#login {
+	background: #eee;
+	border: 1px dotted silver;
+	padding: 6px;
+	font-size: 8pt;
+        margin-left: 30px;
+        margin-top: 30px;
+	line-height: 1.5em;
+        position: relative;
+}
+
+#data {
+	background: #eee;
+	border: 1px dotted silver;
+	padding: 6px 20px 6px 20px;
+	font-size: 8pt;
+        margin-top: 50px;
+        margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+        position: relative;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin-left: 30px;
+}
